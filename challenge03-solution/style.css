@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --light: #fff;
+  --dark: #000;
+  --primary: #23424a;
+  --secondary: #136c72;
+  --tertiary: #38cfd9;
+}
+
+.hero {
+  background-color: var(--primary);
+  color: var(--light);
+  min-height: 60vh;
+  padding: 4rem;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 0.5em 0;
+}
+
+.hero-text {
+  font-size: 21px;
+  font-weight: 400;
+  padding: 1rem 0 4rem;
+}
+
+.call-to-action {
+  background-color: var(--tertiary);
+  border-radius: 31.5px;
+  color: var(--dark);
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
