@@ -22,11 +22,21 @@ body {
   --tertiary: #38cfd9;
 }
 
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .hero {
   background-color: var(--primary);
   color: var(--light);
   min-height: 60vh;
   padding: 4rem;
+}
+
+.hero-text {
+  width: 70%;
 }
 
 .hero-heading {
@@ -35,7 +45,7 @@ body {
   padding: 0.5em 0;
 }
 
-.hero-text {
+.hero p {
   font-size: 21px;
   font-weight: 400;
   padding: 1rem 0 4rem;
@@ -51,4 +61,10 @@ body {
   padding: 0.75em 1.5em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.call-to-action:hover,
+.call-to-action:focus {
+  opacity: 0.75;
+  transition: 0.25s;
 }
