@@ -51,7 +51,7 @@ body {
   padding: 1rem 0 4rem;
 }
 
-.call-to-action {
+.cta-btn {
   background-color: var(--tertiary);
   border-radius: 31.5px;
   color: var(--dark);
@@ -63,8 +63,8 @@ body {
   text-decoration: none;
 }
 
-.call-to-action:hover,
-.call-to-action:focus {
+.cta-btn:hover,
+.cta-btn:focus {
   opacity: 0.75;
   transition: 0.25s;
 }
